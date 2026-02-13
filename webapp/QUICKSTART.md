@@ -25,7 +25,8 @@ mysql -u root -p
 
 # Run these commands in MySQL:
 CREATE DATABASE lecture_platform;
-USE lecture_platform;
+
+
 SOURCE /home/user/webapp/schema.sql;
 SOURCE /home/user/webapp/seed.sql;
 exit;

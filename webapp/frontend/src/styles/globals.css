@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 2, 8, 20;
+  --navy-dark: #020814;
+  --navy-medium: #06142f;
+  --blue-primary: #2563eb;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: radial-gradient(circle at 20% 10%, #0b234d 0%, #050d1d 38%, #020814 75%);
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .navy-gradient {
+    background: radial-gradient(circle at 20% 10%, #0b234d 0%, #050d1d 38%, #020814 75%);
+  }
+  
+  .blue-gradient {
+    background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
+  }
+
+  .premium-surface {
+    background: linear-gradient(180deg, rgba(14, 28, 58, 0.85), rgba(7, 14, 30, 0.9));
+    border: 1px solid rgba(59, 130, 246, 0.25);
+    box-shadow: 0 18px 40px rgba(4, 15, 34, 0.45);
+  }
+}

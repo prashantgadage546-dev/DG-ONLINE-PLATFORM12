@@ -1,6 +1,6 @@
 require('dotenv').config();
 const app = require('./app');
-const { testConnection } = require('./config/db');
+const { testConnection, ensureDatabaseStructure } = require('./config/db');
 
 const PORT = process.env.PORT || 5000;
 
@@ -8,6 +8,7 @@ const startServer = async () => {
   try {
     // Test database connection
     await testConnection();
+    await ensureDatabaseStructure();
 
     // Start server
     app.listen(PORT, '0.0.0.0', () => {
