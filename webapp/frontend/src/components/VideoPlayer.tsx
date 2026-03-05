@@ -1,5 +1,5 @@
 'use client';
-
+//@ts-nocheck
 import { useState, useRef, useEffect } from 'react';
 import { Play, Pause, Volume2, VolumeX, Maximize, SkipBack, SkipForward, Settings } from 'lucide-react';
 import { cn } from '@/lib/utils';

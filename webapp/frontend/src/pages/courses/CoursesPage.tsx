@@ -98,15 +98,15 @@ export default function CoursesPage() {
       </div>
 
       <div className="flex gap-2 flex-wrap">
-        <Button variant={mode === 'all' ? 'default' : 'outline'} onClick={() => setMode('all')}>
+        {/* <Button variant={mode === 'all' ? 'default' : 'outline'} onClick={() => setMode('all')}>
           All
-        </Button>
+        </Button> */}
         <Button variant={mode === 'enrolled' ? 'default' : 'outline'} onClick={() => setMode('enrolled')}>
           Enrolled
         </Button>
-        <Button variant={mode === 'available' ? 'default' : 'outline'} onClick={() => setMode('available')}>
+        {/* <Button variant={mode === 'available' ? 'default' : 'outline'} onClick={() => setMode('available')}>
           Available
-        </Button>
+        </Button> */}
       </div>
 
       {loading && <div className="text-center text-gray-400 py-20">Loading courses...</div>}
