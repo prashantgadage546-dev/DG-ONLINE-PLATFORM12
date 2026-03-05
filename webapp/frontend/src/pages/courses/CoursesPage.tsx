@@ -21,7 +21,7 @@ interface Course {
   total_lessons?: number;
 }
 
-type FilterMode = 'all' | 'enrolled' | 'available';
+type FilterMode ='enrolled'
 
 export default function CoursesPage() {
   const navigate = useNavigate();
