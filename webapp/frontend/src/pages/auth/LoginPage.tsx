@@ -90,7 +90,7 @@ export default function LoginPage() {
                     name="email"
                     type="email"
                     required
-                    placeholder="john@example.com"
+                    placeholder="abc@example.com"
                     value={formData.email}
                     onChange={handleChange}
                     className="pl-10"
@@ -129,21 +129,7 @@ export default function LoginPage() {
               </div>
 
               {/* Demo Credentials */}
-              <div className="border-t border-navy-700 pt-5 mt-5">
-                <p className="text-xs text-gray-500 text-center mb-3 font-medium">Demo Credentials:</p>
-                <div className="space-y-2">
-                  <div className="glass-effect p-3 rounded-xl">
-                    <p className="text-xs text-gray-400">
-                      <span className="text-blue-400 font-medium">Admin:</span> admin@example.com / admin123
-                    </p>
-                  </div>
-                  <div className="glass-effect p-3 rounded-xl">
-                    <p className="text-xs text-gray-400">
-                      <span className="text-blue-400 font-medium">Student:</span> john@example.com / admin123
-                    </p>
-                  </div>
-                </div>
-              </div>
+            
             </form>
           </CardContent>
         </Card>

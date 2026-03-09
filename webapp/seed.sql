@@ -5,7 +5,8 @@
 -- admin123
 
 INSERT INTO users (name, email, password, role) VALUES
-('Admin User', 'admin@example.com', '$2b$10$9.tTA56o7H56AePBdV5z1euhflDudve3NfVWy6YyYWA.jFnyIOnlq', 'admin'),
+-- ('Admin User', 'admin@example.com', '$2b$10$9.tTA56o7H56AePBdV5z1euhflDudve3NfVWy6YyYWA.jFnyIOnlq', 'admin'),
+('Admin User', 'dreamsguider@gmail.com', '$2b$10$9.tTA56o7H56AePBdV5z1euhflDudve3NfVWy6YyYWA.jFnyIOnlq', 'admin'),
 ('John Doe', 'john@example.com', '$2b$10$9.tTA56o7H56AePBdV5z1euhflDudve3NfVWy6YyYWA.jFnyIOnlq', 'student'),
 ('Jane Smith', 'jane@example.com', '$2b$10$9.tTA56o7H56AePBdV5z1euhflDudve3NfVWy6YyYWA.jFnyIOnlq', 'student'),
 ('Mike Johnson', 'mike@example.com', '$2b$10$9.tTA56o7H56AePBdV5z1euhflDudve3NfVWy6YyYWA.jFnyIOnlq', 'student'),
