@@ -101,9 +101,7 @@ export default function CoursesPage() {
         {/* <Button variant={mode === 'all' ? 'default' : 'outline'} onClick={() => setMode('all')}>
           All
         </Button> */}
-        <Button variant={mode === 'enrolled' ? 'default' : 'outline'} onClick={() => setMode('enrolled')}>
-          Enrolled
-        </Button>
+       
         {/* <Button variant={mode === 'available' ? 'default' : 'outline'} onClick={() => setMode('available')}>
           Available
         </Button> */}
